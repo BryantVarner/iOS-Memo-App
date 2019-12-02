@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FFB410BE2376CD95005D336E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410BD2376CD95005D336E /* AppDelegate.swift */; };
-		FFB410C02376CD95005D336E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410BF2376CD95005D336E /* FirstViewController.swift */; };
-		FFB410C22376CD95005D336E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410C12376CD95005D336E /* SecondViewController.swift */; };
 		FFB410C52376CD95005D336E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB410C32376CD95005D336E /* Main.storyboard */; };
 		FFB410C72376CD96005D336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB410C62376CD96005D336E /* Assets.xcassets */; };
 		FFB410CA2376CD96005D336E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB410C82376CD96005D336E /* LaunchScreen.storyboard */; };
 		FFB410D52376CD96005D336E /* MyMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410D42376CD96005D336E /* MyMemoTests.swift */; };
 		FFB410E02376CD96005D336E /* MyMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410DF2376CD96005D336E /* MyMemoUITests.swift */; };
+		FFB410F7238BF0A7005D336E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410F6238BF0A7005D336E /* Constants.swift */; };
+		FFB410FB238CD2E7005D336E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410FA238CD2E7005D336E /* SettingsViewController.swift */; };
+		FFB410FF238CD67A005D336E /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB410FE238CD67A005D336E /* MemoViewController.swift */; };
+		FFB41102238D13DC005D336E /* MyMemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFB41100238D13DC005D336E /* MyMemoModel.xcdatamodeld */; };
+		FFB41104238D268A005D336E /* MemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB41103238D268A005D336E /* MemoTableViewController.swift */; };
+		FFB41106238D4424005D336E /* PrioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB41105238D4424005D336E /* PrioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		FFB410BA2376CD95005D336E /* MyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB410BD2376CD95005D336E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFB410BF2376CD95005D336E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FFB410C12376CD95005D336E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FFB410C42376CD95005D336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFB410C62376CD96005D336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFB410C92376CD96005D336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		FFB410DB2376CD96005D336E /* MyMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB410DF2376CD96005D336E /* MyMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMemoUITests.swift; sourceTree = "<group>"; };
 		FFB410E12376CD96005D336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB410F6238BF0A7005D336E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFB410FA238CD2E7005D336E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FFB410FE238CD67A005D336E /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		FFB41101238D13DC005D336E /* MyMemoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemoModel.xcdatamodel; sourceTree = "<group>"; };
+		FFB41103238D268A005D336E /* MemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTableViewController.swift; sourceTree = "<group>"; };
+		FFB41105238D4424005D336E /* PrioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				FFB410BD2376CD95005D336E /* AppDelegate.swift */,
-				FFB410BF2376CD95005D336E /* FirstViewController.swift */,
-				FFB410C12376CD95005D336E /* SecondViewController.swift */,
+				FFB41100238D13DC005D336E /* MyMemoModel.xcdatamodeld */,
 				FFB410C32376CD95005D336E /* Main.storyboard */,
+				FFB410FE238CD67A005D336E /* MemoViewController.swift */,
+				FFB410F6238BF0A7005D336E /* Constants.swift */,
 				FFB410C62376CD96005D336E /* Assets.xcassets */,
 				FFB410C82376CD96005D336E /* LaunchScreen.storyboard */,
 				FFB410CB2376CD96005D336E /* Info.plist */,
+				FFB410FA238CD2E7005D336E /* SettingsViewController.swift */,
+				FFB41103238D268A005D336E /* MemoTableViewController.swift */,
+				FFB41105238D4424005D336E /* PrioViewController.swift */,
 			);
 			path = MyMemo;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB410C22376CD95005D336E /* SecondViewController.swift in Sources */,
+				FFB410F7238BF0A7005D336E /* Constants.swift in Sources */,
+				FFB41102238D13DC005D336E /* MyMemoModel.xcdatamodeld in Sources */,
 				FFB410BE2376CD95005D336E /* AppDelegate.swift in Sources */,
-				FFB410C02376CD95005D336E /* FirstViewController.swift in Sources */,
+				FFB410FF238CD67A005D336E /* MemoViewController.swift in Sources */,
+				FFB410FB238CD2E7005D336E /* SettingsViewController.swift in Sources */,
+				FFB41106238D4424005D336E /* PrioViewController.swift in Sources */,
+				FFB41104238D268A005D336E /* MemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				FFB410E62376CD96005D336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFB410E72376CD96005D336E /* Build configuration list for PBXNativeTarget "MyMemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				FFB410E92376CD96005D336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFB410EA2376CD96005D336E /* Build configuration list for PBXNativeTarget "MyMemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,8 +541,22 @@
 				FFB410EC2376CD96005D336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFB41100238D13DC005D336E /* MyMemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFB41101238D13DC005D336E /* MyMemoModel.xcdatamodel */,
+			);
+			currentVersion = FFB41101238D13DC005D336E /* MyMemoModel.xcdatamodel */;
+			path = MyMemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FFB410B22376CD95005D336E /* Project object */;
 }
